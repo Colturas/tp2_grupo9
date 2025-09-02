@@ -1,4 +1,4 @@
-package ar.unju.escmi.tp2.ejercicio1;
+package ar.unju.escmi.tp2.ejercicio2;
 
 public class Ejercicio2 {
     public static void main(String[] args) {
