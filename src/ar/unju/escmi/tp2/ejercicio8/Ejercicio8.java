@@ -21,3 +21,4 @@ public class Ejercicio8 {
         System.out.println("c = " + c); // 6
         System.out.println("d = " + d); // 3
     }
+}

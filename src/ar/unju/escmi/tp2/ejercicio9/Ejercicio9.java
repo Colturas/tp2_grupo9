@@ -18,3 +18,5 @@ public class Ejercicio9 {
         }
 
         scanner.close();
+    }
+}
