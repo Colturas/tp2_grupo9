@@ -2,33 +2,23 @@ package ar.unju.escmi.tp2.ejercicio2;
 
 public class Ejercicio2 {
     public static void main(String[] args) {
-        String frase = "La educación es el arma más poderosa que puedes usar para cambiar el mundo.";
+        // Nombres y apellidos
+        String nombre1 = "María Diaz";
+        String nombre2 = "Juan Gonzalez";
+        String nombre3 = "Julieta Velazquez";
+        String nombre4 = "Silvia Juarez";
+        // Documentos
+        int dni1 = 45200145;
+        int dni2 = 44120789;
+        int dni3 = 42001796;
+        int dni4 = 43100789;
 
-        // Mostrar la frase original
-        System.out.println("Frase original:");
-        System.out.println(frase);
-
-        // Longitud de la frase
-        System.out.println("\nLongitud de la frase: " + frase.length());
-
-        // Frase en mayúsculas
-        System.out.println("\nFrase en mayúsculas:");
-        System.out.println(frase.toUpperCase());
-
-        // Frase en minúsculas
-        System.out.println("\nFrase en minúsculas:");
-        System.out.println(frase.toLowerCase());
-
-        // Primer carácter
-        System.out.println("\nPrimer carácter de la frase: " + frase.charAt(0));
-
-        // Último carácter
-        System.out.println("Último carácter de la frase: " + frase.charAt(frase.length() - 1));
-
-        // Subcadena: desde la palabra "arma" hasta "poderosa"
-        int inicio = frase.indexOf("arma");
-        int fin = frase.indexOf("poderosa") + "poderosa".length();
-        String subcadena = frase.substring(inicio, fin);
-        System.out.println("\nSubcadena seleccionada: " + subcadena);
+        // Mostrar datos de cada integrante en una sola línea por persona
+        System.out.println(
+            nombre1 + " - " + dni1 + "\n" +
+            nombre2 + " - " + dni2 + "\n" +
+            nombre3 + " - " + dni3 + "\n" +
+            nombre4 + " - " + dni4
+        );
     }
 }
