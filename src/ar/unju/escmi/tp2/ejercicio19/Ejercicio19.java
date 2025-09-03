@@ -6,7 +6,6 @@ public class Ejercicio19 {
         String texto2 = "Hola";
         String texto3 = new String("Hola");
 
-        // Comparación de referencias y valores
         System.out.println("texto1 == texto2: " + (texto1 == texto2));
         System.out.println("texto1.equals(texto2): " + texto1.equals(texto2));
 
