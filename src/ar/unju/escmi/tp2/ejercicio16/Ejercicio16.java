@@ -6,6 +6,7 @@ public class Ejercicio16 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int tamaño;
+        
 
         // Solicitar número en el rango [5,10]
         do {
