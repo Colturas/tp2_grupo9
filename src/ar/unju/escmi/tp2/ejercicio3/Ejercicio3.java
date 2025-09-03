@@ -1,7 +1,7 @@
 package ar.unju.escmi.tp2.ejercicio3;
 
 public class Ejercicio3 {
-    // Declaración de constantes
+    
     public static final int CODIGO_POSTAL_JUJUY = 4600;
     public static final double PI = 3.1415926535;
     public static final int DIAS_SEMANA = 7;

@@ -13,7 +13,7 @@ public class Ejercicio2 {
         int dni3 = 42001796;
         int dni4 = 43100789;
 
-        // Mostrar datos de cada integrante en una sola línea por persona
+     
         System.out.println(
             nombre1 + " - " + dni1 + "\n" +
             nombre2 + " - " + dni2 + "\n" +

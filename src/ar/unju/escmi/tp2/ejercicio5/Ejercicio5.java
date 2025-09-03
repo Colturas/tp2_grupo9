@@ -3,7 +3,6 @@ package ar.unju.escmi.tp2.ejercicio5;
 public class Ejercicio5 {
     public static void main(String[] args) {
         int a = 8, b = 3, c = -5;
-
         int resultadoA = a + b + c;
         int resultadoB = 2 * b + 3 * (a - c);
         double resultadoC = (double) a / b;
