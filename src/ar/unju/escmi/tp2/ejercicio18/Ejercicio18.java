@@ -19,8 +19,7 @@ public class Ejercicio18 {
         } else {
             System.out.println("Los valores NO son iguales");
         }
-
-        // Cambiando el valor de num2
+ 
         num2 = 3000;
         System.out.println("\nCambiando el valor de num2 a 3000:");
         System.out.println("Referencia de num1 es: " + System.identityHashCode(num1));

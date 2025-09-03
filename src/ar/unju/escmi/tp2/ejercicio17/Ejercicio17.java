@@ -5,6 +5,7 @@ public class Ejercicio17 {
         Integer num1 = 50;
         Integer num2 = 50;
 
+        
         System.out.println("Referencia de num1 es: " + System.identityHashCode(num1));
         System.out.println("Referencia de num2 es: " + System.identityHashCode(num2));
 
